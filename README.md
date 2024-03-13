@@ -7,11 +7,11 @@ This project was developed using [Foundry](https://book.getfoundry.sh/), a modul
 
 # Contracts
 
-CoinFlip.sol: The main contract for the Coin Flip game, implementing game logic and interactions with the Chainlink VRF for randomness.
+*"CoinFlip.sol"* : The main contract for the Coin Flip game, implementing game logic and interactions with the Chainlink VRF for randomness.
 
-DeployCoinFlip.s.sol: A deployment script for the Coin Flip contract, facilitating deployment to various networks.
+*"DeployCoinFlip.s.sol"* : A deployment script for the Coin Flip contract, facilitating deployment to various networks.
 
-NetworkConfigurator.s.sol: A utility contract to configure network-specific parameters, including the Chainlink VRF coordinator address and subscription ID necessary for the game's operation.
+*"NetworkConfigurator.s.sol"* : A utility contract to configure network-specific parameters, including the Chainlink VRF coordinator address and subscription ID necessary for the game's operation.
 
 # Features
 
