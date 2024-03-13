@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-// Imports VRFCoordinatorV2Mock and Script for mock testing and scripting.
-import {VRFCoordinatorV2Mock} from "../lib/chainlink/VRFCoordinatorV2Mock.sol";
+// Imports Script for mock testing and scripting.
 import {Script} from "forge-std/Script.sol";
 
 error NetworkUnknown(); // Custom error for unknown network configurations.
