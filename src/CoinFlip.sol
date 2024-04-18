@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.18;
 
-import {VRFCoordinatorV2Interface} from "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
-import {VRFConsumerBaseV2} from "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import {VRFCoordinatorV2Interface} from "../lib/chainlink/VRFCoordinatorV2Interface.sol";
+import {VRFConsumerBaseV2} from "../lib/chainlink/VRFConsumerBaseV2.sol";
 
 // Custom errors for specific contract failures
 error CoinFlip__NotOwner();
