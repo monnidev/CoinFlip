@@ -30,7 +30,6 @@ Clone the repository and compile contracts
 ```bash 
 git clone https://github.com/monnidev/Coinflip
 code Coinflip
-make
 ```
 
 ### Add your active Chainlink subscription ID to the NetworkConfigurator file in the appropriate section for your target network.
@@ -38,13 +37,13 @@ make
 ### Build
 
 ```
-make build
+forge build
 ```
 
 ### Test
 
 ```
-make test
+forge test
 ```
 
 ## This project is licensed under the MIT License
